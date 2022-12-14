@@ -1,11 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.webview_in_flutter">
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="webview_in_flutter"
+        android:label="SolidApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
         >
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

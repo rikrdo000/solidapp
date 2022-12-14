@@ -7,7 +7,11 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/webview_in_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/webview_in_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/webview_in_flutter/.dart_tool" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
